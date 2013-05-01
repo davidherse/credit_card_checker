@@ -15,18 +15,18 @@ $ ruby tc_cn_check.rb
 $ ruby cn_check.rb 4408 0412 3456 7893
 
 ### In terminal - Pass multiple numbers separated by line breaks
-$ ruby cn_check.rb "
-> 4111111111111111
-> 4012888888881881
-> 6011111111111117
+$ ruby cn_check.rb "  
+> 4111111111111111  
+> 4012888888881881  
+> 6011111111111117  
 >"
 
 ### In code - Pass a single number
 validate_cards("4111111111111111")
 
 ### In code - Pass multiple lines
-validate_cards("
-4111111111111111
-4111111111111
-4012888888881881
+validate_cards("  
+4111111111111111  
+4111111111111  
+4012888888881881  
 ")
